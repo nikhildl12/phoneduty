@@ -47,7 +47,7 @@ if (null !== $userID) {
         $time
         );
 
-    $twilioResponse->say($response, $attributes);
+    //$twilioResponse->say($response, $attributes);
     $twilioResponse->dial( $user['phone_number'], $attributes);
 
     // send response
